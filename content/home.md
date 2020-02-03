@@ -6,8 +6,23 @@ cats:
     name: Maru (まる)
   - description: Lil Bub is an American celebrity cat known for her unique appearance.
     name: Lil Bub
-  - description: 'Grumpy cat is an American celebrity cat known for her grumpy appearance.'
+  - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
     name: Grumpy cat (Tardar Sauce)
+  - description: >-
+      Celestus is a very mischievious cat. It statys in he creek.  Instead of
+      tormenting and driving away rats it haunts for peoples dry fish. 
+
+      Imagin someone will dry fish in the sun and the cat will go there and eat
+      fish.
+
+      Even the rats are not that wicked...
+    name: Celestus
+  - description: >-
+      This cat is just a witch (or winch). Any time you dream some evil or bad
+      dream this cat always appear in the mix. Very scary and evil cat indeed.
+
+      We need to ...
+    name: Frishly Vuudas
 ---
 Welcome to my awesome page about cats of the internet.
 
