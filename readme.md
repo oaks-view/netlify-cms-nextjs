@@ -1,0 +1,1 @@
+POC to test out netlify cms with nextjs
