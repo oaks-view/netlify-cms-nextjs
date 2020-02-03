@@ -9,17 +9,17 @@ cats:
   - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
     name: Grumpy cat (Tardar Sauce)
   - description: >-
-      Celestus is a very mischievious cat. It statys in he creek.  Instead of
+      Celestus is a very mischievious cat. It stays in the creeks.  Instead of
       tormenting and driving away rats it haunts for peoples dry fish. 
 
-      Imagin someone will dry fish in the sun and the cat will go there and eat
+      Imagine someone will dry fish in the sun and the cat will go there and eat
       fish.
 
       Even the rats are not that wicked...
     name: Celestus
   - description: >-
       This cat is just a witch (or winch). Any time you dream some evil or bad
-      dream this cat always appear in the mix. Very scary and evil cat indeed.
+      dream this cat is always there. Very scary and evil cat indeed.
 
       We need to ...
     name: Frishly Vuudas
