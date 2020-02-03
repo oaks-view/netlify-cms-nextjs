@@ -16,7 +16,7 @@ cats:
       fish.
 
       Even the rats are not that wicked...
-    name: Celestus
+    name: Celestus Swiler
   - description: >-
       This cat is just a witch (or winch). Any time you dream some evil or bad
       dream this cat is always there. Very scary and evil cat indeed.
