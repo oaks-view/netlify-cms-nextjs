@@ -2,13 +2,20 @@
 title: Awesome kitties
 date: 2019-03-17T19:31:20.591Z
 cats:
-  - description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
+  - alive: true
+    description: 'Maru is a Scottish Fold from Japan, and he loves boxes.'
+    image: /img/cat_maru.jpeg
     name: Maru (まる)
-  - description: Lil Bub is an American celebrity cat known for her unique appearance.
+  - alive: true
+    description: Lil Bub is an American celebrity cat known for her unique appearance.
+    image: /img/cat_bob.jpeg
     name: Lil Bub
-  - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
+  - alive: true
+    description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
+    image: /img/grumpy_cat.jpeg
     name: Grumpy cat (Tardar Sauce)
-  - description: >-
+  - alive: true
+    description: >-
       Celestus is a very mischievious cat. It stays in the creeks.  Instead of
       tormenting and driving away rats it haunts for peoples dry fish. 
 
@@ -16,12 +23,15 @@ cats:
       fish.
 
       Even the rats are not that wicked...
+    image: /img/cat_celestus.jpg
     name: Celestus Swiler
-  - description: >-
+  - alive: true
+    description: >-
       This cat is just a witch (or winch). Any time you dream some evil or bad
       dream this cat is always there. Very scary and evil cat indeed.
 
       We need to ...
+    image: /img/celestus_swiler.jpg
     name: Frishly Vuudas
 ---
 Welcome to my awesome page about cats of the internet.
