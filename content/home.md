@@ -33,6 +33,13 @@ cats:
       We need to ...
     image: /img/celestus_swiler.jpg
     name: Frishly Vuudas
+  - alive: true
+    description: >-
+      This is a very funny cat. One day he got stuck in a sofa. It was stuf
+      there for almost eight hours
+    image: >-
+      https://res.cloudinary.com/mozenge/image/upload/f_auto,q_auto/v1581172764/cat_rusechef_xlcxot.jpg
+    name: Cat rusechef
 ---
 Welcome to my awesome page about cats of the internet.
 
