@@ -1,8 +1,13 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: master
 publish_mode: editorial_workflow
 media_folder: public/img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: mozenge
+    api_key: 456623887849627
 public_folder: img
 collections:
   - name: "pages"
