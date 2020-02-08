@@ -1,11 +1,26 @@
 backend:
-  name: test-repo
+  name: git-gateway
   branch: master
 publish_mode: editorial_workflow
 media_folder: public/img
 media_library:
   name: cloudinary
   config:
+    default_transformations:
+        - fetch_format: auto
+          quality: auto
+        - width: 300
+          crop: fill
+        - overlay:
+            {
+              font_family: "Verdana",
+              font_size: 25,
+              font_weight: "bold",
+              text_decoration: "underline",
+              letter_spacing: 8,
+              text: "Hello",
+            }
+          effect: grayscale
     cloud_name: mozenge
     api_key: 456623887849627
 public_folder: img
@@ -13,18 +28,28 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "Image", name: "image", widget: "image", allow_multiple: false }
-            - { label: "Is it still alive?", name: "alive", widget: "boolean", default: true }
+      - label: "Home"
+        name: "home"
+        file: "content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Cats"
+            name: "cats"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  allow_multiple: false,
+                }
+              - {
+                  label: "Is it still alive?",
+                  name: "alive",
+                  widget: "boolean",
+                  default: true,
+                }
