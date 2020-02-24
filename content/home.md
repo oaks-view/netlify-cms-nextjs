@@ -40,6 +40,11 @@ cats:
     image: >-
       https://res.cloudinary.com/mozenge/image/upload/f_auto,q_auto/v1581172764/cat_rusechef_xlcxot.jpg
     name: Cat rusechef
+  - alive: true
+    description: Hello description
+    image: >-
+      https://res.cloudinary.com/mozenge/image/upload/f_auto,q_auto/v1562412860/sample.jpg
+    name: 'Tracy '
 ---
 Welcome to my awesome page about cats of the internet.
 
